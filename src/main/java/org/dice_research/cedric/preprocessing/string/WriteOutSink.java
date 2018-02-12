@@ -4,7 +4,6 @@ import org.dice_research.cedric.model.Relation;
 import org.dice_research.cedric.pipeline.ISink;
 
 import java.io.PrintStream;
-import java.io.Writer;
 
 /**
  * A sink which writes relations in Turtle format to a given output stream

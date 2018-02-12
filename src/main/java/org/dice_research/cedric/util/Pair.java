@@ -1,5 +1,14 @@
 package org.dice_research.cedric.util;
 
+/**
+ * 
+ * @author Kevin Haack
+ *
+ * @param <F>
+ *            The first element.
+ * @param <S>
+ *            The second element.
+ */
 public class Pair<F, S> {
 
 	public final F first;
