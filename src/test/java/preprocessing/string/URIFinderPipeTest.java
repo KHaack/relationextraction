@@ -1,7 +1,8 @@
 package preprocessing.string;
 
 import javafx.util.Pair;
-import model.NEREntity;
+import org.dice_research.cedric.model.NEREntity;
+import org.dice_research.cedric.preprocessing.string.URIFinderPipe;
 import org.junit.jupiter.api.Test;
 
 class URIFinderPipeTest {
