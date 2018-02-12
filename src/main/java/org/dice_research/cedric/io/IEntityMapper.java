@@ -1,6 +1,6 @@
 package org.dice_research.cedric.io;
 
-import model.ILabelledEntity;
+import org.dice_research.cedric.model.ILabelledEntity;
 import org.bson.BSONObject;
 
 /**
