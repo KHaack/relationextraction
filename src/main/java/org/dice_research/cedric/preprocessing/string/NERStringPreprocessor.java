@@ -3,11 +3,11 @@ package org.dice_research.cedric.preprocessing.string;
 import com.google.common.collect.ImmutableList;
 import edu.stanford.nlp.simple.Sentence;
 import javafx.util.Pair;
-import model.ILabelledEntity;
-import model.NEREntity;
-import model.SimpleLabelledEntity;
-import pipeline.APipe;
-import pipeline.ISink;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.model.NEREntity;
+import org.dice_research.cedric.model.SimpleLabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
+import org.dice_research.cedric.pipeline.ISink;
 
 import java.util.ArrayList;
 import java.util.List;

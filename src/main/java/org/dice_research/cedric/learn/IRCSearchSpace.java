@@ -1,7 +1,7 @@
 package org.dice_research.cedric.learn;
 
 import com.google.common.collect.Multimap;
-import model.ITrainingData;
+import org.dice_research.cedric.model.ITrainingData;
 
 /**
  * A search space to find features with a matching classification

@@ -1,6 +1,6 @@
 package org.dice_research.cedric.learn;
 
-import bayes.IBayesEstimator;
+import org.dice_research.cedric.bayes.IBayesEstimator;
 
 /**
  *

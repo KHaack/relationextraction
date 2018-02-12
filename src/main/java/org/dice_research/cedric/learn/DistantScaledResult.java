@@ -1,6 +1,6 @@
 package org.dice_research.cedric.learn;
 
-import model.ILexicalFeature;
+import org.dice_research.cedric.model.ILexicalFeature;
 
 /**
  *

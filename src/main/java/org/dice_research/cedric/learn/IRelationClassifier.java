@@ -1,6 +1,6 @@
 package org.dice_research.cedric.learn;
 
-import model.ILexicalEntity;
+import org.dice_research.cedric.model.ILexicalEntity;
 
 import java.io.IOException;
 

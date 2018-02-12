@@ -1,7 +1,7 @@
 package org.dice_research.cedric.learn.validate.simple;
 
-import learn.validate.ITestResult;
-import learn.validate.ITestScorer;
+import org.dice_research.cedric.learn.validate.ITestResult;
+import org.dice_research.cedric.learn.validate.ITestScorer;
 
 import java.util.List;
 import java.util.Map;

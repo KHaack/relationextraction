@@ -1,9 +1,9 @@
 package org.dice_research.cedric.learn.validate;
 
-import learn.IRelationClassifier;
-import learn.validate.simple.SimpleClassificationTestResult;
-import model.ILabelledEntity;
-import pipeline.APipe;
+import org.dice_research.cedric.learn.IRelationClassifier;
+import org.dice_research.cedric.learn.validate.simple.SimpleClassificationTestResult;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
 
 /**
  *

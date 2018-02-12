@@ -1,8 +1,8 @@
 package org.dice_research.cedric.io.config;
 
 import com.google.gson.*;
-import io.IDBCredentials;
-import io.simple.SimpleDBCredentials;
+import org.dice_research.cedric.io.IDBCredentials;
+import org.dice_research.cedric.io.simple.SimpleDBCredentials;
 
 import java.lang.reflect.Type;
 

@@ -1,7 +1,7 @@
 package org.dice_research.cedric.bayes;
 
-import model.ILabelledEntity;
-import model.ILexicalEntity;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.model.ILexicalEntity;
 
 import java.util.Map;
 

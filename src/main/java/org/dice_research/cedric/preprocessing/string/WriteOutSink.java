@@ -1,7 +1,7 @@
 package org.dice_research.cedric.preprocessing.string;
 
-import model.Relation;
-import pipeline.ISink;
+import org.dice_research.cedric.model.Relation;
+import org.dice_research.cedric.pipeline.ISink;
 
 import java.io.PrintStream;
 import java.io.Writer;

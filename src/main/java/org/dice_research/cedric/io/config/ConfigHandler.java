@@ -2,7 +2,7 @@ package org.dice_research.cedric.io.config;
 
 import com.google.common.base.MoreObjects;
 import com.google.gson.*;
-import io.IDBCredentials;
+import org.dice_research.cedric.io.IDBCredentials;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,7 +1,7 @@
-package org.dice_research.cedric.reprocessing;
+package org.dice_research.cedric.preprocessing;
 
-import model.ILabelledEntity;
-import pipeline.APipe;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
 
 import java.util.HashSet;
 import java.util.Set;

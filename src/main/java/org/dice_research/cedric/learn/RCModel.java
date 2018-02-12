@@ -2,7 +2,7 @@ package org.dice_research.cedric.learn;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import model.ITrainingData;
+import org.dice_research.cedric.model.ITrainingData;
 
 import java.util.Map;
 import java.util.Objects;

@@ -4,10 +4,10 @@ package org.dice_research.cedric.preprocessing.string;
 import javafx.util.Pair;
 
 
-import model.NEREntity;
-import model.RelationEntity;
+import org.dice_research.cedric.model.NEREntity;
+import org.dice_research.cedric.model.RelationEntity;
 import org.aksw.fox.data.Entity;
-import pipeline.APipe;
+import org.dice_research.cedric.pipeline.APipe;
 
 
 import java.util.*;

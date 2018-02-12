@@ -1,6 +1,6 @@
 package org.dice_research.cedric.learn.validate;
 
-import model.ILexicalEntity;
+import org.dice_research.cedric.model.ILexicalEntity;
 
 /**
  *

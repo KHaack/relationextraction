@@ -1,6 +1,6 @@
 package org.dice_research.cedric.io.config;
 
-import model.IConfiguration;
+import org.dice_research.cedric.model.IConfiguration;
 
 public class GsonApplicationConfig implements IConfiguration {
     private int window = 2;

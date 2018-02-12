@@ -1,9 +1,9 @@
 package org.dice_research.cedric.preprocessing;
 
-import io.IEntityMapper;
-import model.ILabelledEntity;
-import pipeline.APipe;
-import preprocessing.filter.IEntityFilter;
+import org.dice_research.cedric.io.IEntityMapper;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
+import org.dice_research.cedric.preprocessing.filter.IEntityFilter;
 
 import java.util.List;
 

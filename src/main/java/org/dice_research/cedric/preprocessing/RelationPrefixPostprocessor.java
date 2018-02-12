@@ -1,7 +1,7 @@
 package org.dice_research.cedric.preprocessing;
 
-import model.Relation;
-import pipeline.APipe;
+import org.dice_research.cedric.model.Relation;
+import org.dice_research.cedric.pipeline.APipe;
 
 /**
  * Sometimes relation are used in learning without prefix.

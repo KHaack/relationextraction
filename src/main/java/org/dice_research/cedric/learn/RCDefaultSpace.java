@@ -1,15 +1,15 @@
 package org.dice_research.cedric.learn;
 
-import bayes.IBayesEstimator;
-import bayes.ICategory;
-import bayes.UnknownCategoryException;
+import org.dice_research.cedric.bayes.IBayesEstimator;
+import org.dice_research.cedric.bayes.ICategory;
+import org.dice_research.cedric.bayes.UnknownCategoryException;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import model.ILexicalFeature;
-import model.ITrainingData;
-import neighbours.INamedObject;
-import neighbours.JaccardNgramMeasure;
-import neighbours.NeighbourSearch;
+import org.dice_research.cedric.model.ILexicalFeature;
+import org.dice_research.cedric.model.ITrainingData;
+import org.dice_research.cedric.neighbours.INamedObject;
+import org.dice_research.cedric.neighbours.JaccardNgramMeasure;
+import org.dice_research.cedric.neighbours.NeighbourSearch;
 
 import java.util.*;
 

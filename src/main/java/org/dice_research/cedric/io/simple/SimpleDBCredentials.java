@@ -1,7 +1,7 @@
 package org.dice_research.cedric.io.simple;
 
 
-import io.IDBCredentials;
+import org.dice_research.cedric.io.IDBCredentials;
 
 /**
  *

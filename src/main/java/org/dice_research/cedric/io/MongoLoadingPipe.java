@@ -1,8 +1,8 @@
 package org.dice_research.cedric.io;
 
 import com.mongodb.*;
-import model.ILabelledEntity;
-import pipeline.APipe;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
 
 
 import java.net.UnknownHostException;

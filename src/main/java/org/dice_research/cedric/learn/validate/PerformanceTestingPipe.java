@@ -1,7 +1,7 @@
 package org.dice_research.cedric.learn.validate;
 
-import learn.validate.simple.SimpleTestResult;
-import pipeline.APipe;
+import org.dice_research.cedric.learn.validate.simple.SimpleTestResult;
+import org.dice_research.cedric.pipeline.APipe;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,7 +1,7 @@
 package org.dice_research.cedric.bayes;
 
-import model.ILabelledEntity;
-import pipeline.APipe;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
 
 /**
  * A pipe to train a bayes estimator while processing training data.

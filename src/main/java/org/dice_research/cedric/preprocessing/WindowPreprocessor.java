@@ -1,9 +1,9 @@
 package org.dice_research.cedric.preprocessing;
 
 import com.google.common.collect.ImmutableList;
-import model.ILabelledEntity;
-import model.SimpleLabelledEntity;
-import pipeline.APipe;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.model.SimpleLabelledEntity;
+import org.dice_research.cedric.pipeline.APipe;
 
 import java.util.ArrayList;
 import java.util.List;

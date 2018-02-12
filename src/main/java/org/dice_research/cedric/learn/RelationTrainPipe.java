@@ -1,7 +1,7 @@
 package org.dice_research.cedric.learn;
 
-import model.ITrainingData;
-import pipeline.APipe;
+import org.dice_research.cedric.model.ITrainingData;
+import org.dice_research.cedric.pipeline.APipe;
 
 import java.util.ArrayList;
 import java.util.List;

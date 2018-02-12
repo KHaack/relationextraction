@@ -1,28 +1,28 @@
 package org.dice_research.cedric;
 
-import bayes.BayesTrainPipe;
-import bayes.IBayesEstimator;
-import io.IDBLoadingTask;
-import io.IEntityMapper;
-import io.MongoLoadingPipe;
+import org.dice_research.cedric.bayes.BayesTrainPipe;
+import org.dice_research.cedric.bayes.IBayesEstimator;
+import org.dice_research.cedric.io.IDBLoadingTask;
+import org.dice_research.cedric.io.IEntityMapper;
+import org.dice_research.cedric.io.MongoLoadingPipe;
 import javafx.util.Pair;
-import learn.*;
-import learn.validate.ClassificationTestingPipe;
-import learn.validate.IClassificationTestResult;
-import model.ILabelledEntity;
-import model.ITrainingData;
-import model.Relation;
-import model.RelationEntity;
-import pipeline.APipe;
-import pipeline.CompressPipe;
-import pipeline.IPipe;
-import pipeline.MergePipe;
-import preprocessing.LabelPreprocessor;
-import preprocessing.RelationPrefixPostprocessor;
-import preprocessing.StopwordPreprocessor;
-import preprocessing.WindowPreprocessor;
-import preprocessing.string.NERStringPreprocessor;
-import preprocessing.string.URIFinderPipe;
+import org.dice_research.cedric.learn.*;
+import org.dice_research.cedric.learn.validate.ClassificationTestingPipe;
+import org.dice_research.cedric.learn.validate.IClassificationTestResult;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.model.ITrainingData;
+import org.dice_research.cedric.model.Relation;
+import org.dice_research.cedric.model.RelationEntity;
+import org.dice_research.cedric.pipeline.APipe;
+import org.dice_research.cedric.pipeline.CompressPipe;
+import org.dice_research.cedric.pipeline.IPipe;
+import org.dice_research.cedric.pipeline.MergePipe;
+import org.dice_research.cedric.preprocessing.LabelPreprocessor;
+import org.dice_research.cedric.preprocessing.RelationPrefixPostprocessor;
+import org.dice_research.cedric.preprocessing.StopwordPreprocessor;
+import org.dice_research.cedric.preprocessing.WindowPreprocessor;
+import org.dice_research.cedric.preprocessing.string.NERStringPreprocessor;
+import org.dice_research.cedric.preprocessing.string.URIFinderPipe;
 
 /**
  *

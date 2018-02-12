@@ -1,6 +1,6 @@
 package org.dice_research.cedric.model;
 
-import bayes.ICategory;
+import org.dice_research.cedric.bayes.ICategory;
 import com.google.common.collect.ImmutableSet;
 
 /**

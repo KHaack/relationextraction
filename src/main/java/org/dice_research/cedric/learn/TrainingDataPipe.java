@@ -1,8 +1,8 @@
 package org.dice_research.cedric.learn;
 
 import com.google.common.collect.ImmutableSet;
-import model.*;
-import pipeline.APipe;
+import org.dice_research.cedric.model.*;
+import org.dice_research.cedric.pipeline.APipe;
 
 import java.util.ArrayList;
 import java.util.List;

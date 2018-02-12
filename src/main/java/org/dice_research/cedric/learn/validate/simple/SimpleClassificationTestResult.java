@@ -1,8 +1,8 @@
 package org.dice_research.cedric.learn.validate.simple;
 
-import learn.validate.IClassificationTestResult;
-import model.ILabelledEntity;
-import model.ILexicalEntity;
+import org.dice_research.cedric.learn.validate.IClassificationTestResult;
+import org.dice_research.cedric.model.ILabelledEntity;
+import org.dice_research.cedric.model.ILexicalEntity;
 
 public class SimpleClassificationTestResult implements IClassificationTestResult {
 

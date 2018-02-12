@@ -1,6 +1,6 @@
 package org.dice_research.cedric.learn;
 
-import model.ITrainingData;
+import org.dice_research.cedric.model.ITrainingData;
 
 import java.io.IOException;
 import java.util.HashMap;

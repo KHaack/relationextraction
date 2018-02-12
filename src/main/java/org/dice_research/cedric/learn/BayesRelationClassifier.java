@@ -3,7 +3,7 @@ package org.dice_research.cedric.learn;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.MinMaxPriorityQueue;
 import com.google.common.collect.Multimap;
-import model.ILexicalEntity;
+import org.dice_research.cedric.model.ILexicalEntity;
 
 import java.io.IOException;
 import java.math.BigDecimal;
