@@ -2,7 +2,6 @@ package org.dice_research.cedric;
 
 import org.dice_research.cedric.bayes.IBayesEstimator;
 import org.dice_research.cedric.bayes.TfidfBayesEstimator;
-import com.google.common.base.Stopwatch;
 import org.dice_research.cedric.io.IDBConfiguration;
 import org.dice_research.cedric.io.IDBLoadingTask;
 import org.dice_research.cedric.io.LemmaEntityMapper;
@@ -25,9 +24,7 @@ import org.dice_research.cedric.preprocessing.string.WriteOutSink;
 import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -57,8 +54,8 @@ public class Extractor {
 
 	public static void setup() {
 		String path = "./system_config.json";
-		ConfigHandler.injectCustomConfig(ExtractionTester.class.getSimpleName(), Paths.get(path));
-		Extractor.handler = ConfigHandler.createCustom(ExtractionTester.class.getSimpleName());
+		ConfigHandler.injectCustomConfig(Extractor.class.getSimpleName(), Paths.get(path));
+		Extractor.handler = ConfigHandler.createCustom(Extractor.class.getSimpleName());
 		
 		Extractor.classificatorSink = new SingleCachedSink<>();
 	}
