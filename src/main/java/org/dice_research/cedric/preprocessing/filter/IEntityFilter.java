@@ -1,6 +1,6 @@
 package org.dice_research.cedric.preprocessing.filter;
 
-import model.ILabelledEntity;
+import org.dice_research.cedric.model.ILabelledEntity;
 
 /**
  * A filter which allow to mark labelled entities
